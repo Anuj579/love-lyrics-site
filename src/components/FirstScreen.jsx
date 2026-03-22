@@ -8,9 +8,9 @@ export default function FirstScreen({ onNext }) {
         <div className="flex flex-col items-center justify-center relative">
             <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
+                animate={{ opacity: 1, scale: 1, transition: { delay: 0.5, duration: 0.8 } }}
                 transition={{ duration: 0.8 }}
-                className="relative z-10 flex flex-col items-center"
+                className="relative z-10 flex flex-col items-center will-change-transform"
             >
                 <motion.div
                     className="mb-10 w-32 h-32 rounded-full border border-primary/20 relative flex items-center justify-center"
@@ -52,7 +52,7 @@ export default function FirstScreen({ onNext }) {
                     transition={{ delay: 0.5, duration: 0.8 }}
                     className="text-lg text-foreground/90 text-center max-w-md mb-10 font-light"
                 >
-                    Something small... but straight from the heart🌟
+                    Something small... but straight from the heart :)
                 </motion.p>
 
                 {/* button */}

@@ -57,7 +57,7 @@ export default function LyricsScreen({ onComplete }) {
                                     by="word"
                                     duration={2.4}
                                     animation="blurInUp"
-                                    className="text-3xl md:text-5xl lg:text-6xl text-foreground drop-shadow-[0_0_10px_rgba(155,77,255,0.35)]"
+                                    className="text-3xl md:text-5xl lg:text-6xl text-foreground drop-shadow-[0_0_10px_rgba(155,77,255,0.35)] will-change-transform"
                                 >
                                     When
                                 </TextAnimate>
@@ -67,7 +67,7 @@ export default function LyricsScreen({ onComplete }) {
                                     duration={2.2}
                                     delay={1.8}
                                     animation="blurInUp"
-                                    className="text-3xl md:text-5xl lg:text-6xl text-foreground drop-shadow-[0_0_10px_rgba(155,77,255,0.35)] text-balance leading-normal"
+                                    className="text-3xl md:text-5xl lg:text-6xl text-foreground drop-shadow-[0_0_10px_rgba(155,77,255,0.35)] text-balance leading-normal will-change-transform"
                                 >
                                     all I dream of is your eyes
                                 </TextAnimate>
@@ -77,7 +77,7 @@ export default function LyricsScreen({ onComplete }) {
                                 by="word"
                                 duration={lyrics[currentLyricIndex].anim}
                                 animation="blurInUp"
-                                className="text-3xl md:text-5xl lg:text-6xl text-foreground drop-shadow-[0_0_10px_rgba(155,77,255,0.35)] text-balance leading-normal"
+                                className="text-3xl md:text-5xl lg:text-6xl text-foreground drop-shadow-[0_0_10px_rgba(155,77,255,0.35)] text-balance leading-normal will-change-transform"
                             >
                                 {lyrics[currentLyricIndex].text}
                             </TextAnimate>

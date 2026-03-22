@@ -1,7 +1,5 @@
 "use client"
 
-export const dynamic = "force-static"
-
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Background from "@/components/Background";

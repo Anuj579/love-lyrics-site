@@ -10,7 +10,7 @@ export default function SecondScreen({ onNext }) {
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8 }}
-                className="relative z-10 flex flex-col items-center"
+                className="relative z-10 flex flex-col items-center will-change-transform"
             >
                 <motion.div
                     className="mb-10 w-32 h-32 rounded-full border border-secondary/20 relative flex items-center justify-center"

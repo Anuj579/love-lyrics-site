@@ -25,7 +25,7 @@ function Background() {
 
     return (
         <>
-            <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none">
+            <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
                 {stars.map((star) => (
                     <motion.div
                         key={star.id}
